@@ -2,11 +2,11 @@ import React, { Component, PropTypes } from 'react'
 import contents from '../../utils/contents'
 
 export default class Nav extends Component {
-  static displayName = 'SG.Nav'
+  static displayName = 'SG.Nav';
 
   static propTypes = {
     ctx: PropTypes.object.isRequired
-  }
+  };
 
   render () {
     let home = '/'

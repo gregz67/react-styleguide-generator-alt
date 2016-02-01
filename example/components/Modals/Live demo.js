@@ -19,7 +19,7 @@ export default class extends Component {
   {this.renderModal()}
 </div>
     `
-  }
+  };
 
   state = {
     showModal: false

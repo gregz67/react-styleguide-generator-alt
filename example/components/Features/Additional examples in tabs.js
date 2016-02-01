@@ -34,5 +34,5 @@ export default class extends Component {
         children: 'Info'
       }
     }]
-  }
+  };
 }

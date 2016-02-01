@@ -12,7 +12,7 @@ export default class extends Component {
   Basic panel example
 </Panel>
 `
-  }
+  };
 
   render () {
     return (

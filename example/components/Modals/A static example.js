@@ -25,7 +25,7 @@ The header is added automatically if you pass in a \`title\` prop.
   </Modal.Footer>
 </Modal.Dialog>
     `
-  }
+  };
 
   render () {
     return (

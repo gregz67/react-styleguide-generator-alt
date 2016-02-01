@@ -4,11 +4,11 @@ import Header from '../Header'
 import Main from '../Main'
 
 export default class App extends Component {
-  static displayName = 'SG.App'
+  static displayName = 'SG.App';
 
   static propTypes = {
     ctx: PropTypes.object.isRequired
-  }
+  };
 
   render () {
     return (

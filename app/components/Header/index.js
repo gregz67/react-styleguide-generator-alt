@@ -3,17 +3,17 @@ import Nav from '../Nav'
 import Search from '../Search'
 
 export default class Header extends Component {
-  static displayName = 'SG.Header'
+  static displayName = 'SG.Header';
 
   static propTypes = {
     ctx: PropTypes.object.isRequired
-  }
+  };
 
-  title = document.title
+  title = document.title;
 
   state = {
     visibleMenu: false
-  }
+  };
 
   toggleMenu () {
     this.setState({ visibleMenu: !this.state.visibleMenu })

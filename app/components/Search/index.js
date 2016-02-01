@@ -2,12 +2,12 @@ import React, { Component, PropTypes } from 'react'
 import page from 'page'
 
 export default class Search extends Component {
-  static displayName = 'SG.Search'
+  static displayName = 'SG.Search';
 
   static propTypes = {
     value: PropTypes.string,
     defaultValue: PropTypes.string
-  }
+  };
 
   constructor (props) {
     super(props)

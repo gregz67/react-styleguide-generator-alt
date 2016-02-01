@@ -18,7 +18,7 @@ export default class extends Component {
   <MenuItem eventKey='4'>Separated link</MenuItem>
 </DropdownButton>
     `
-  }
+  };
 
   renderDropdownButton (title, i) {
     return (

@@ -22,7 +22,7 @@ export default class extends Component {
   </Row>
 </Grid>
 `
-  }
+  };
 
   render () {
     return (

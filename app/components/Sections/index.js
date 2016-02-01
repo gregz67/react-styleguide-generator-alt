@@ -3,11 +3,11 @@ import Section from '../Section'
 import contents from '../../utils/contents'
 
 export default class Sections extends Component {
-  static displayName = 'SG.Sections'
+  static displayName = 'SG.Sections';
 
   static propTypes = {
     ctx: PropTypes.object.isRequired
-  }
+  };
 
   getContents () {
     let params = this.props.ctx.params

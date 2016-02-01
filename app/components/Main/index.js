@@ -2,11 +2,11 @@ import React, { Component, PropTypes } from 'react'
 import Sections from '../Sections'
 
 export default class Main extends Component {
-  static displayName = 'SG.Main'
+  static displayName = 'SG.Main';
 
   static propTypes = {
     ctx: PropTypes.object.isRequired
-  }
+  };
 
   render () {
     return (

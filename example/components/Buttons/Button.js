@@ -18,7 +18,7 @@ export default class extends Component {
   <Button bsStyle='link'>Link</Button>
 </ButtonToolbar>
     `
-  }
+  };
 
   render () {
     return (

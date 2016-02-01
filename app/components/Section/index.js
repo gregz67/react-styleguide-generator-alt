@@ -11,7 +11,7 @@ import reactPropMeta from '../../../rsg-tmp/propsdoc'
 let exampleId = 0
 
 export default class Section extends Component {
-  static displayName = 'SG.Section'
+  static displayName = 'SG.Section';
 
   static propTypes = {
     category: PropTypes.string,
@@ -28,13 +28,13 @@ export default class Section extends Component {
     _self: PropTypes.object,
     // Id number of the section; used for caching/highlighting purposes
     _id: PropTypes.number.isRequired
-  }
+  };
 
   static defaultProps () {
     return {
       examples: []
     }
-  }
+  };
 
   highlight () {
     let node = document.querySelector('[data-highlight-id="' + this.props._id + '"] code.example-code')

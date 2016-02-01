@@ -14,7 +14,7 @@ export default class extends Component {
   <Button>Right</Button>
 </ButtonGroup>
     `
-  }
+  };
 
   render () {
     return (
