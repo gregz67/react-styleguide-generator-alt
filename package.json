@@ -91,6 +91,7 @@
     "mustache": "^2.1.2",
     "object-assign": "^4.0.1",
     "page": "^1.6.4",
+    "react-intl": "^2.0.0-beta-2",
     "react-bootstrap": "0.27.1",
     "react-docgen": "^2.0.0",
     "react-simpletabs": "matthewgertner/react-simpletabs",
